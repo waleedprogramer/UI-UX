@@ -1,9 +1,9 @@
 import React from "react";
 
 import Image from "next/image";
-import b1 from '../Images2/blog1.png'
-import b2 from '../Images2/blog2.png'
-import b3 from '../Images2/blog3.png'
+import b1 from '../images/blog1.png'
+import b2 from '../images/blog2.png'
+import b3 from '../images/blog3.png'
 import { FaPenNib } from "react-icons/fa";
 import { SlCalender } from "react-icons/sl";
 
