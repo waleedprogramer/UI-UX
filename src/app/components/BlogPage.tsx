@@ -1,9 +1,9 @@
 import React from "react";
 
 import Image from "next/image";
-import b1 from '../image3/blog1.png'
-import b2 from '../image3/blog2.png'
-import b3 from '../image3/blog3.png'
+import b1 from '../images/blog1.png'
+import b2 from '../images/blog2.png'
+import b3 from '../images/blog3.png'
 import { FaPenNib } from "react-icons/fa";
 import { SlCalender } from "react-icons/sl";
 
@@ -16,7 +16,7 @@ const BlogPage = () => {
       name:"Aenean vitae in aliquam ultrices lectus. Etiam.",
       description:
         " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim.",
-      image: b1 ,
+      image: blog1 ,
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ const BlogPage = () => {
       name:"Aenean vitae in aliquam ultrices lectus. Etiam.",
       description:
         " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim.",
-      image: b2,
+      image: blog2,
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const BlogPage = () => {
       name:"Sit nam congue feugiat nisl, mauris amet nisi.",
       description:
         " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim.",
-      image: b3,
+      image: blog3,
     },
   ];
 
